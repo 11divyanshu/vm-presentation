@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/public/assets/images/logo.png"/>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/assets/styles.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Value Matrix</title>
+  </head>
+  <body>
+    <div class="landing">
+      <div class="container d-flex justify-content-center">
+        <div class="card dynamicwidth">
+          <div class="card-body px-4">
+            <div class="d-flex justify-content-center">
+              <img src="/public/assets/images/logo.png" alt="Value Matrix" width="40%"/>
+            </div>
+            <p class="head-text text-center mb-0 mt-5">Get Your Hiring Lists Tight</p>
+            <h4 class="text-center">Launching Soon!!</h4>
+            
+            <div class="d-flex justify-content-center mb-4 mt-5">
+              <div class="gradient-line"></div>
+            </div>
+            
+            <% if(name != '') { %>
+              <h6 class="text-center" style="color: green; font-family: Arial, Helvetica, sans-serif;">You have successfully joined the waitlist. Thank you, <%= name %></h6>
+              <% }
+              
+            
+            %>
+            <form action="" method="POST" id="waitlist">
+              <h5 class="text-center" style="font-weight: bold;">Join The Waitlist</h5>
+              
+              <div class="inputfield mt-4">
+                <input type="text" class="form-control py-2" id="name" name="name" placeholder="Enter Name Here" required/>
+              </div>
+              <div class="inputfield mt-2">
+                <div class="row">
+                  <div class="col-md-7 pe-md-0">
+                    <input type="email" name="email" id="email" class="form-control py-2" placeholder="Enter Email Here" required></input>
+                  </div>
+                  <div class="col-md-5 ps-md-0">
+                    <button type="submit" class="button_slide btn-block h-100 w-100">Join</button>
+                  </div>
+                </div>
+              </div>
+              <div id="outer" class="d-flex justify-content-center">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-light py-5">
+      <div class="container my-5 py-5">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="/public/assets/images/logo.png" alt="Value Matrix" width="100%"/>
+          </div>
+          <div class="col-md-8 d-flex" style="align-items: center;">
+            <div>
+              <h1 style="font-weight: bold;">About</h1>
+              <p class="text-grey">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum numquam mollitia sint, officia repellat culpa. Neque, dolorem similique aperiam officia sapiente itaque! Quia, eligendi nisi omnis magnam repellat laboriosam sint!
+              </p>
+              <div>
+                <a class="btn btn-primary button_slide" href="#waitlist">Join the Waitlist</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+      <div class="d-flex justify-content-center my-4">
+        <div class="gradient-line"></div>
+      </div>
+
+      <div class="container my-5 py-5">
+        <h1 class="text-center" style="font-weight: bold;">Know Our Team</h1>
+        <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-center my-4 w-25">
+            <div class="gradient-line"></div>
+          </div>
+        </div>
+        <div class="cardbody">
+          <div class="containerr">
+            <div class="box">
+              <div class="top-bar"></div>
+              <div class="top">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <input type="checkbox" class="heart-btnn" id="heart-btnn-1">
+                <label class="heart" for="heart-btnn-1"></label>
+              </div>
+              <div class="content">
+                <img src="https://images.pexels.com/photos/2570145/pexels-photo-2570145.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                <strong>David Warner</strong>
+                <p>thewarner@gmail.com</p>
+              </div>
+              <div class="btnn">
+                <a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a>
+                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top-bar"></div>
+              <div class="top">
+                <div>
+                  <i class="fa fa-check-circle" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <input type="checkbox" class="heart-btnn" id="heart-btnn-2">
+                  <label class="heart" for="heart-btnn-2"></label>
+                </div>
+              </div>
+              <div class="content">
+                <img src=https://images.pexels.com/photos/2826131/pexels-photo-2826131.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 alt="">
+                <strong>Rohan Tolani</strong>
+                <p>rooohan@gmail.com</p>
+              </div>
+              <div class="btnn">
+                <a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a>
+                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top-bar"></div>
+              <div class="top">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <input type="checkbox" class="heart-btnn" id="heart-btnn-3">
+                <label class="heart" for="heart-btnn-3"></label>
+              </div>
+              <div class="content">
+                <img src=https://images.pexels.com/photos/3681591/pexels-photo-3681591.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 alt="">
+                <strong>Raquel John</strong>
+                <p>Raqueljohn@gmail.com</p>
+              </div>
+              <div class="btnn">
+                <a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a>
+                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+              </div>
+            </div>
+            <div class="box">
+              <div class="top-bar"></div>
+              <div class="top">
+                <i class="fa fa-check-circle" aria-hidden="true"></i>
+                <input type="checkbox" class="heart-btnn" id="heart-btnn-4">
+                <label class="heart" for="heart-btnn-4"></label>
+              </div>
+              <div class="content">
+                <img src=https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940 alt="">
+                <strong>Priya Mehra</strong>
+                <p>priyamehraa@gmail.com</p>
+              </div>
+              <div class="btnn">
+                <a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>Assign</a>
+                <a href="#"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer container pt-4">
+      <p class="text-muted text-center">Copyright &copy; 2022 | Value Matrix | All rights reserved</p>
+    </div>
+  </body>
+</html>
