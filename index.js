@@ -19,6 +19,14 @@ app.get("/", (req, res) => {
   const name = req.flash('user');
   res.render("index", {name} );
 });
+app.get("/about", (req, res) => {
+  const name = req.flash('user');
+  res.render("about", {name} );
+});
+app.get("/team", (req, res) => {
+  const name = req.flash('user');
+  res.render("team", {name} );
+});
 app.use('/public', express.static('public'));
 
 

@@ -163,7 +163,6 @@ a{
 
 .box{
     position: relative;
-    min-width: 250px;
     background-color: #fff;
     box-shadow: 2px 3px 30px rgba(0,0,0,0.05);
     display: flex;
@@ -174,6 +173,15 @@ a{
     margin: 20px;
     position: relative;
     border-radius: 10px;
+}
+
+@media(min-width:768px){
+  .box{
+    width: 30%;}
+}
+@media(max-width:767px){
+  .box{
+    width: 100%;}
 }
 
 
