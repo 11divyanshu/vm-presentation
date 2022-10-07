@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="/public/assets/images/logo.png"/>
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-    <link rel="stylesheet" href="/public/assets/styles.css" type="text/css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <title>Value Matrix</title>
-  </head>
-  <body>
-    <div class="landing">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/public/assets/images/logo.png" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="/public/styles.css" type="text/css">
+  <link rel="stylesheet" href="/public/utilities.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Value Matrix</title>
+</head>
+
+<body>
+
+
+
+
+  <!-- <div class="landing">
       <div class="container d-flex justify-content-center">
         <div class="card dynamicwidth">
           <div class="card-body px-4">
@@ -54,115 +63,184 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="bg-light py-5">
-      <div class="container my-5 py-5">
-        <div class="row">
-          <div class="col-md-4">
-            <img src="/public/assets/images/logo.png" alt="Value Matrix" width="100%"/>
-          </div>
-          <div class="col-md-8 d-flex" style="align-items: center;">
-            <div>
-              <h1 style="font-weight: bold;">About</h1>
-              <p class="text-grey">
-                At Value Matrix we respect your business and also understand the value of your golden bandwidth and are here to help you make the right tech hiring while you focus on the growth of your business/ organization. 
-                <a href="/about">Know More</a>
-              </p>
-              <div>
-                <a class="btn btn-primary button_slide" href="#waitlist">Join the Waitlist</a>
-              </div>
-            </div>
-          </div>
-        </div>
+    </div> -->
+
+
+  <section class="landing w-auto flex">
+
+    <div class="landing-text">
+      <div class="d-flex justify-content-center">
+        <img src="/public/assets/images/logo.png" alt="Value Matrix" width="40%" />
       </div>
-            
-      <div class="d-flex justify-content-center my-4">
+      <p class="head-text text-center mb-0 mt-5">Get Your Hiring Lists Tight</p>
+      <h4 class="text-center">Launching Soon!!</h4>
+
+      <div class="d-flex justify-content-center mb-4 mt-3">
         <div class="gradient-line"></div>
       </div>
+    </div>
 
-      <div class="container my-5 py-5">
-        <h1 class="text-center" style="font-weight: bold;">Know Our Team</h1>
-        <div class="d-flex justify-content-center">
-          <div class="d-flex justify-content-center my-4 w-25">
-            <div class="gradient-line"></div>
-          </div>
-        </div>
-        <div class="cardbody">
-          <div class="containerr">
-            <div class="box">
-              <div class="top-bar"></div>
-              <div class="top">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                <input type="checkbox" class="heart-btnn" id="heart-btnn-1">
-                <label class="heart" for="heart-btnn-1"></label>
-              </div>
-              <div class="content">
-                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHL7nhn5Akz-w/profile-displayphoto-shrink_200_200/0/1657115989192?e=1669852800&v=beta&t=HGVXvXccSF6-vFbo25a7b-RHdOTcZ__EmrrMKU4W6DE" alt="Aditya Malik">
-                <strong>Aditya Malik</strong>
-                <p class="text-center">Board Member- KoinX<br/>
-                  Ex-SVP-MNM<br/>
-                  Head of Sales and Account<br/>
-                  Management- India & SAARC - Freshworks
-                  </p>
-              </div>
-              <div class="btnn">
-                <a href="https://www.linkedin.com/in/malikaditya/"><i class="fa fa-clipboard" aria-hidden="true"></i>Follow</a>
-                <a href="/team#aditya"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="top-bar"></div>
-              <div class="top">
-                <div>
-                  <i class="fa fa-check-circle" aria-hidden="true"></i>
+    <div class="landing-form w-50 mx-lg-5 h-100 card ">
+      <div class="w-100">
+        <% if(name !='' ) { %>
+          <h6 class="text-center" style="color: green; font-family: Arial, Helvetica, sans-serif;">You have successfully
+            joined the waitlist. Thank you, <%= name %>
+          </h6>
+          <% } %>
+            <form action="" method="POST" id="waitlist" class="h-100">
+              <h5 class="text-center" style="font-weight: bold;">Join The Waitlist</h5>
+  
+              <div class="mb-5 py-3 mx-lg-3">
+                <div class="inputfield my-4">
+                  <input type="text" class="form-control py-2" id="name" name="name" placeholder="   Enter Name Here"
+                    required />
                 </div>
-                <div>
-                  <input type="checkbox" class="heart-btnn" id="heart-btnn-2">
-                  <label class="heart" for="heart-btnn-2"></label>
+                <div class="inputfield my-2">
+                  <input type="email" name="email" id="email" class="form-control py-2" placeholder="   Enter Email Here"
+                    required>
+                  </input>
+                </div>
+                <div class="w-100 flex justify-content-center">
+                    <button type="submit" class="button_slide btn-block mt-lg-3 mx-auto h-100 w-25">Join</button>
                 </div>
               </div>
-              <div class="content">
-                <img src="https://media-exp1.licdn.com/dms/image/C5603AQEg6qQhFFiOCw/profile-displayphoto-shrink_200_200/0/1517694856478?e=1669852800&v=beta&t=wFnfqOBfrag10Pf2Vmck8sbZSz4FaiwOGckcMlZ4mUc" alt="">
-                <strong>Raj Parameswaran</strong>
-                <p class="text-center">Chief Revenue Officer-Newage SaaS<br/>
-                  Strategic Business Unit Head - CSS Corp<br/>
-                  Chief Client Officer - Polaris FinTech<br/>
-                  Vice President - Capgemini Consulting
-                  </p>
-              </div>
-              <div class="btnn">
-                <a href="https://www.linkedin.com/in/rajparameswaran"><i class="fa fa-clipboard" aria-hidden="true"></i>Follow</a>
-                <a href="/team#raj"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-              </div>
-            </div>
-            <div class="box">
-              <div class="top-bar"></div>
-              <div class="top">
-                <i class="fa fa-check-circle" aria-hidden="true"></i>
-                <input type="checkbox" class="heart-btnn" id="heart-btnn-3">
-                <label class="heart" for="heart-btnn-3"></label>
-              </div>
-              <div class="content">
-                <img src="https://media-exp1.licdn.com/dms/image/C5103AQHuN0BwiPjaPQ/profile-displayphoto-shrink_200_200/0/1534166222160?e=1669852800&v=beta&t=GTCWZ_rmwupwn5zNY6tzQFjsM9QxmNez4oaQ5bZJ0vI" alt="">
-                <strong>Jayashankar Attupurathu</strong>
-                <p class="text-center">Head Product Engg -  UST Global<br/>
-                  Vice President - Citibank<br/><br/><br/>
-                </p>
-              </div>
-              <div class="btnn">
-                <a href="https://www.linkedin.com/in/jattupurathu"><i class="fa fa-clipboard" aria-hidden="true"></i>Follow</a>
-                <a href="/team#jayashankar"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
-              </div>
+            </form>
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+
+
+
+
+  <div class="bg-light flex py-5 justify-content-center">
+    <div class="mx-lg-3 w-75 my-5 py-5">
+      <div class="row">
+        <div class="col-md-8 d-flex about-text" style="align-items: center;">
+          <div>
+            <h1 style="font-weight: bold;">About</h1>
+            <p class="text-grey">
+              At Value Matrix we respect your business and also understand the value of your golden bandwidth and are
+              here to help you make the right tech hiring while you focus on the growth of your business/ organization.
+              <a href="/about">Know More</a>
+            </p>
+            <div>
+              <a class="btn btn-primary button_slide" href="#waitlist">Join the Waitlist</a>
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center">
-          <a href="/team">Know More</a>
+        <div class="col-md-4 about-img">
+          <img src="/public/assets/images/logo.png" alt="Value Matrix" width="100%" />
         </div>
       </div>
     </div>
-    <div class="footer container pt-4">
-      <p class="text-muted text-center">Copyright &copy; 2022 | Value Matrix | All rights reserved</p>
+
+    <div class="d-flex justify-content-center my-4">
+      <div class="gradient-line"></div>
     </div>
-  </body>
+
+  </div>
+  <div class="my-5 py-5">
+    <h1 class="text-center" style="font-weight: bold;">Know Our Team</h1>
+    <div class="d-flex justify-content-center">
+      <div class="d-flex justify-content-center my-4 w-25">
+        <div class="gradient-line"></div>
+      </div>
+    </div>
+
+      <div class="flex">
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <input type="checkbox" class="heart-btnn" id="heart-btnn-1">
+            <label class="heart" for="heart-btnn-1"></label>
+          </div>
+          <div class="content">
+            <img
+              src="../public/assets/images/3.png"
+              alt="Aditya Malik">
+            <strong>Aditya Malik</strong>
+            <p class="text-center">Board Member- KoinX<br />
+              Ex-SVP-MNM<br />
+              Head of Sales and Account<br />
+              Management- India & SAARC - Freshworks
+            </p>
+          </div>
+          <div class="btnn">
+            <a href="https://www.linkedin.com/in/malikaditya/"><i class="fa fa-clipboard"
+                aria-hidden="true"></i>Follow</a>
+            <a href="/team#aditya"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <div>
+              <i class="fa fa-check-circle" aria-hidden="true"></i>
+            </div>
+            <div>
+              <input type="checkbox" class="heart-btnn" id="heart-btnn-2">
+              <label class="heart" for="heart-btnn-2"></label>
+            </div>
+          </div>
+          <div class="content">
+            <img
+            src="../public/assets/images/2.png"
+              alt="">
+            <strong>Raj Parameswaran</strong>
+            <p class="text-center">Chief Revenue Officer-Newage SaaS<br />
+              Strategic Business Unit Head - CSS Corp<br />
+              Chief Client Officer - Polaris FinTech<br />
+              Vice President - Capgemini Consulting
+            </p>
+          </div>
+          <div class="btnn">
+            <a href="https://www.linkedin.com/in/rajparameswaran"><i class="fa fa-clipboard"
+                aria-hidden="true"></i>Follow</a>
+            <a href="/team#raj"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="top-bar"></div>
+          <div class="top">
+            <i class="fa fa-check-circle" aria-hidden="true"></i>
+            <input type="checkbox" class="heart-btnn" id="heart-btnn-3">
+            <label class="heart" for="heart-btnn-3"></label>
+          </div>
+          <div class="content">
+            <img
+            src="../public/assets/images/1.png"
+              alt="">
+            <strong>Jayashankar Attupurathu</strong>
+            <p class="text-center">Head Product Engg - UST Global<br />
+              Vice President - Citibank<br /><br /><br />
+            </p>
+          </div>
+          <div class="btnn">
+            <a href="https://www.linkedin.com/in/jattupurathu"><i class="fa fa-clipboard"
+                aria-hidden="true"></i>Follow</a>
+            <a href="/team#jayashankar"><i class="fa fa-eye" aria-hidden="true"></i>View</a>
+          </div>
+        </div>
+      </div>
+   
+    <div class="d-flex justify-content-center">
+      <a href="/team">Know More</a>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="footer container pt-4">
+    <p class="text-muted text-center">Copyright &copy; 2022 | Value Matrix | All rights reserved</p>
+  </div>
+</body>
+
 </html>
