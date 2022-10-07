@@ -101,7 +101,7 @@
 
 
   .button_slide {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background-color: #034488;
     border: 2px solid #034488;
     border-radius: 5px;
@@ -222,7 +222,7 @@ a{
 }
 
 /* creating heart */
- .heart{
+.heart{
     color: rgba(155,155,155);
 }
 .heart::before{
@@ -278,19 +278,22 @@ a{
     margin-top: 5px;
     display: flex;
     justify-content: space-between;
+    background-color: #01458C !important;
     align-items: center;
-    width: 100%;
+    border-radius: 20px;
+    width: max-content;
 }
 .btnn a i{
     margin-right: 9px;
 }
 .btnn a{
     border-radius: 20px;
-    color: #8b8b8b;
+
     padding: 8px 20px;
     font-size: 0.9rem;
 }
-.btnn a:hover{
+.btnn a:hover,
+.button_slide:hover{
     color: #fff;
     box-shadow: 2px 5px 15px rgba(80,123,252,0.05);
     background-color: #507bfc;
