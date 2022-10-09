@@ -68,18 +68,20 @@
           <% } %>
             <form action="" method="POST" id="waitlist" class="w-100 mt-12">
               <div class="w-50 mx-auto">
-                <div class="relative w-full lg:w-1/2 my-12 mx-auto lg:my-0">
+                <div class="relative w-full lg:w-1/2 lg:my-12 mx-auto md:my-6 my-4">
                   <div class="wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
-                    <div class="mb-4" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                      <input class="w-full form-control border-0 p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+                    <div class="lg:mb-4" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                      <input
+                        class="w-full form-control border-0 p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
                         type="text" placeholder="Enter Name Here" id="name" name="name" required>
                     </div>
                   </div>
                 </div>
-                <div class="relative w-full lg:w-1/2 my-12 mx-auto lg:my-0">
+                <div class="relative w-full lg:w-1/2 lg:my-12 mx-auto lg:my-0">
                   <div class="wow animate__animated animate__fadeInRight" data-wow-delay=".5s">
-                    <div class="mb-4" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
-                      <input class="w-full form-control border-0 p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
+                    <div class="lg:mb-4" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                      <input
+                        class="w-full form-control border-0 p-4 text-xs font-semibold leading-none bg-blueGray-50 rounded outline-none"
                         type="email" name="email" id="email" placeholder="Enter Email Here" required>
                     </div>
                   </div>
@@ -139,80 +141,10 @@
     </div>
   </section>
 
-  <!-- <div class="landing">
-    <div class="container d-flex justify-content-center">
-      <div class="card dynamicwidth">
-        <div class="card-body px-4">
-          <div class="d-flex justify-content-center">
-            <img src="/public/assets/images/logo.png" alt="Value Matrix" width="40%" />
-          </div>
-          <p class="head-text text-center mb-0 mt-5">Get Your Hiring Lists Tight</p>
-          <h4 class="text-center">Launching Soon!!</h4>
-
-          <div class="d-flex justify-content-center mb-4 mt-5">
-            <div class="gradient-line"></div>
-          </div>
-
-          <% if(name !='' ) { %>
-            <h6 class="text-center" style="color: green; font-family: Arial, Helvetica, sans-serif;">You have
-              successfully joined the waitlist. Thank you, <%= name %>
-            </h6>
-            <% } %>
-              <form action="" method="POST" id="waitlist">
-                <h5 class="text-center" style="font-weight: bold;">Join The Waitlist</h5>
-
-                <div class="inputfield mt-4">
-                  <input type="text" class="form-control py-2" id="name" name="name" placeholder="Enter Name Here"
-                    required />
-                </div>
-                <div class="inputfield mt-2">
-                  <div class="row">
-                    <div class="col-md-7 pe-md-0">
-                      <input type="email" name="email" id="email" class="form-control py-2"
-                        placeholder="Enter Email Here" required></input>
-                    </div>
-                    <div class="col-md-5 ps-md-0">
-                      <button type="submit" class="button_slide btn-block h-100 w-100">Join</button>
-                    </div>
-                  </div>
-                </div>
-                <div id="outer" class="d-flex justify-content-center">
-                </div>
-              </form>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- <div class="bg-light py-5">
-    <div class="container my-5 py-5">
-      <div class="row">
-        <div class="col-md-4">
-          <img src="/public/assets/images/logo.png" alt="Value Matrix" width="100%" />
-        </div>
-        <div class="col-md-8 d-flex" style="align-items: center;">
-          <div>
-            <h1 style="font-weight: bold;">About</h1>
-            <p class="text-grey">
-              At Value Matrix we respect your business and also understand the value of your golden bandwidth and are
-              here to help you make the right tech hiring while you focus on the growth of your business/ organization.
-              <a href="/about">Know More</a>
-            </p>
-            <div>
-              <a class="btn btn-primary button_slide" href="#waitlist">Join the Waitlist</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-
-
-
   <div class="container my-5 py-24" id="Team">
-    <h1 class="text-center text-3xl my-6" style="font-weight: bold;">Know Our Team</h1>
+    <h1 class="text-center text-3xl my-6" style="font-weight: bold; width: fit-content;">Know Our Team</h1>
 
-    <div class="cardbody">
+    <div class="cardbody Team" >
       <div class="flex">
         <div class="box">
           <div class="top-bar"></div>

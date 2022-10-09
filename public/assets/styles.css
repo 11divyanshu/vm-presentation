@@ -284,3 +284,19 @@ a{
     background-color: #507bfc;
     transition: all ease 0.5s;
 }
+
+.aditya{
+  margin: 2rem 0;
+}
+
+@media(max-width:768px){
+  .Team{
+    overflow: scroll;
+  }
+}
+@media(max-width:900px){
+  .feature{
+    width: 100% !important;
+  }
+}
+
